@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "Bitcoin Blimp",
+  "description": "Monitor your favorite Bitcoin stocks with a blimp!",
+  "version": "0.1",
+  "background": {
+    "persistent": false,
+    "scripts": ["jquery-2.0.2.min.js", "background.js"]
+  },
+  "permissions": [
+    "alarms",
+    "https://bitfunder.com/"
+  ],
+  "browser_action": {
+    //"default_icon": "icon.png",
+    "default_popup": "popup.html"
+  }
+}
